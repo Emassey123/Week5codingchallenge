@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    text-align: center;
+    border: 5px solid black;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 10px 5px 10px red;
+    border-radius: 10px;
+    
+}
+.container{
+    margin: 20px auto;
+    width: 50%;
+}
+
+.checkerboard{
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 8px red;
+}
+
+.box{
+    height: 60px;
+    width: 60px;
+}
+
+  
+
+.black{
+    background: black;
+    width: 60px;
+    height: 60px;
+}
+
+

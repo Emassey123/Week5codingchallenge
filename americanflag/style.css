@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 20px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px red;
+    width: 50%;
+    
+}
+
+
+/*using table*/
+
+
+table{
+ 
+    width:80%;
+    margin:50px;
+}
+
+ 
+tr:nth-child(odd){
+    background-color:red;
+    height:50px;
+    width:100px;
+}
+
+tr:nth-child(even){
+    background-color:white;
+    height:50px;
+    width:100px;
+}
+.merica{
+ width: 30%;
+ height:364px;
+ margin:0px 0px 0px 50px;
+position:absolute;
+
+
+
+
+
+
+
+
+
+    
+    
+
