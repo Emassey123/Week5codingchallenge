@@ -1,3 +1,55 @@
+
 h1{
-    background-color: blue;
+   text-align: center;
+   max-width: 50%;
+   margin: 2rem auto;
+   border: 2px solid;
+   border-radius: 15px;
+   box-shadow: 5px 5px 10px 5px red;
+
+}
+
+.beef{
+    max-width: 80%;
+    margin: 4rem auto;
+}
+
+.grid{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:2rem;
+    
+}
+.products{
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px red;
+}
+
+.products-image{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+  .grid .description{
+    text-align: center;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+}
+
+button{
+    margin: 1rem 4.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 50%;
+    box-shadow: 5px 5px 5px  black;
+    cursor: pointer;
+   
+}
+
+a{
+    text-decoration: none;
 }
